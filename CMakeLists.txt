@@ -4,8 +4,8 @@ project(world.zachariahs.hunters_vs_wolves VERSION 1.0.0.0 DESCRIPTION "Training
 add_executable(${PROJECT_NAME})
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
 target_sources(${PROJECT_NAME} PRIVATE FILE_SET internal_headers TYPE HEADERS BASE_DIRS include FILES
-  include/world.zachariahs.hunters_vs_wolves.wolf_traits.hpp
-  include/world.zachariahs.hunters_vs_wolves.hunter_traits.hpp
+  include/${PROJECT_NAME}.wolf_traits.hpp
+  include/${PROJECT_NAME}.hunter_traits.hpp
 )
 target_sources(${PROJECT_NAME} PRIVATE
   src/main.cpp
