@@ -1,4 +1,4 @@
-#include <world.zachariahs.hunters_vs_wolves.vector2d.hpp>
+#include <world.zachariahs.hunters_vs_wolves/vector2d.hpp>
 
 namespace world::zachariahs::hunters_vs_wolves::core {
 struct entity {

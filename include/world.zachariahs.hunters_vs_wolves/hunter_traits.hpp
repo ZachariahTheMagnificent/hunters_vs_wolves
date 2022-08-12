@@ -1,6 +1,6 @@
 #include <array>
 #include <cstddef>
-#include <world.zachariahs.hunters_vs_wolves.entity_type.hpp>
+#include <world.zachariahs.hunters_vs_wolves/entity_type.hpp>
 
 namespace world::zachriahs::hunters_vs_wolves::core {
 struct hunter_traits {

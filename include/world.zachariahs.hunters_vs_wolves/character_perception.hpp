@@ -1,5 +1,5 @@
 #include <cstddef>
-#include <world.zachariahs.hunters_vs_wolves.world.hpp>
+#include <world.zachariahs.hunters_vs_wolves/world.hpp>
 
 namespace world::zachariahs::hunters_vs_wolves::core {
 template <typename character_traits> struct character_perception {

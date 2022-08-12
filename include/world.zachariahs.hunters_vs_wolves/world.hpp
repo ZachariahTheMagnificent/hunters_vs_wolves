@@ -1,8 +1,8 @@
 #include <cstddef>
 #include <span>
 #include <vector>
-#include <world.zachariahs.hunters_vs_wolves.entity.hpp>
-#include <world.zachariahs.hunters_vs_wolves.entity_type.hpp>
+#include <world.zachariahs.hunters_vs_wolves/entity.hpp>
+#include <world.zachariahs.hunters_vs_wolves/entity_type.hpp>
 
 namespace world::zachariahs::hunters_vs_wolves::core {
 struct world {
